@@ -9,7 +9,7 @@ public class Control {
     }
     public void enlazar(TV tv){
         setTV(tv);
-        tv.setControl(this);
+        this.tv.setControl(this);
     }
     public void setCanal(int canal){
         this.tv.setCanal(canal);
