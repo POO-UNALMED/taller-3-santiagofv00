@@ -70,20 +70,32 @@ public class TV {
         return numtv;
     }
 
+
+
     public void canalUp(){
-        if (this.canal <= 119)
-            this.canal ++;
+        if (this.estado) {
+            if (this.canal <= 119)
+                this.canal++;
+        }
     }
     public void canalDown(){
-        if (this.canal >= 2)
-            this.canal --;
+        if (this.estado) {
+            if (this.canal >= 2)
+                this.canal--;
+        }
     }
 
     public void volumenUp(){
-
+        if (this.estado){
+            if (this.volumen <= 6)
+                this.volumen ++;
+        }
     }
     public void volumenDown(){
-
+        if (this.estado){
+            if (this.volumen >= 0)
+                this.volumen --;
+        }
     }
 
 }

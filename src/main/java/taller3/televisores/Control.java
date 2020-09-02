@@ -4,12 +4,12 @@ public class Control {
     private TV tv = null;
 
 
-    public void setTv(TV tv) {
+    public void setTV(TV tv) {
         this.tv = tv;
     }
     public void enlazar(TV tv){
-        setTv(tv);
-        this.tv.control=this;
+        setTV(tv);
+        tv.setControl(this);
     }
     public void turnOn(){
         this.tv.turnOn();
