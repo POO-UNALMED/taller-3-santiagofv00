@@ -63,7 +63,7 @@ public class TV {
         this.estado=true;
     }
 
-    public boolean isEstado() {
+    public boolean getEstado() {
         return estado;
     }
 
@@ -97,6 +97,9 @@ public class TV {
             if (this.volumen >= 0)
                 this.volumen --;
         }
+    }
+    public static void setNumtv(int numtv) {
+        TV.numtv = numtv;
     }
 
 }
