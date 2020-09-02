@@ -67,7 +67,7 @@ public class TV {
         return estado;
     }
 
-    public static int getNumtv() {
+    public static int getNumTV() {
         return numtv;
     }
 
@@ -98,7 +98,7 @@ public class TV {
                 this.volumen --;
         }
     }
-    public static void setNumtv(int numtv) {
+    public static void setNumTV(int numtv) {
         TV.numtv = numtv;
     }
 
