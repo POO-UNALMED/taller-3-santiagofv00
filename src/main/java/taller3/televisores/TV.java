@@ -95,7 +95,7 @@ public class TV {
     }
     public void volumenDown(){
         if (this.estado){
-            if (this.volumen >= 0)
+            if (this.volumen >= 1)
                 this.volumen --;
         }
     }
